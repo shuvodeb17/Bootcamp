@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navBar start here */
+#navBar{
+    background-color: #1D2124;
+    color: #fff;
+}
+#navBar li a{
+    color: #696D71;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+#navBar li a:hover{
+    color: #dde1e6;
+}
+/* navBar end here */
+/* Newsletter start here */
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
+/* Newsletter end here */
+/* react start here */
+#react .btn{
+    width: 104px;
+}
+/* react end here */
+/* details start here */
+#fourCard .social {
+    width: 40px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-right: -2px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+#fourCard .social:hover{
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+/* details end here */
+/* location start here */
+#location img{margin: auto;padding: 56px 0px;}
+/* location end here */
+@media(min-width: 1199px){
+    .card{
+        margin-right: 20px;
+        width: 200px;
+    }
+}
